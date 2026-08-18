@@ -1,9 +1,9 @@
 # SyndProxy private pool
 
-- Alive: 521
+- Alive: 520
 - Gold: 178
 - HTTP: 141 alive / 36 gold
-- HTTPS: 81 alive / 12 gold
+- HTTPS: 80 alive / 12 gold
 - SOCKS4: 137 alive / 75 gold
 - SOCKS5: 162 alive / 55 gold
 
