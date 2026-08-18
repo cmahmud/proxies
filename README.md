@@ -1,6 +1,6 @@
 # SyndProxy private pool
 
-Generated: 2026-08-18T08:21:12Z
+Generated: 2026-08-18T08:31:08Z
 
 - Alive: 0
 - Gold: 0
