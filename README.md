@@ -1,10 +1,10 @@
 # SyndProxy private pool
 
-- Alive: 1237
-- Gold: 183
-- HTTP: 503 alive / 39 gold
-- HTTPS: 263 alive / 13 gold
-- SOCKS4: 258 alive / 74 gold
-- SOCKS5: 213 alive / 57 gold
+- Alive: 1247
+- Gold: 202
+- HTTP: 511 alive / 39 gold
+- HTTPS: 271 alive / 13 gold
+- SOCKS4: 264 alive / 81 gold
+- SOCKS5: 201 alive / 69 gold
 
 `gold/` contains repeatedly verified, higher-scoring proxies. `alive/` contains every proxy that passed the most recent validation.
