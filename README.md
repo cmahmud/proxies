@@ -2,12 +2,12 @@
 
 ## Current pool
 
-- Alive now: 1083
+- Alive now: 1093
 - Gold now: 489
-- HTTP: 372 alive / 141 gold
-- HTTPS: 281 alive / 93 gold
-- SOCKS4: 211 alive / 137 gold
-- SOCKS5: 219 alive / 118 gold
+- HTTP: 375 alive / 141 gold
+- HTTPS: 283 alive / 93 gold
+- SOCKS4: 214 alive / 137 gold
+- SOCKS5: 221 alive / 118 gold
 
 ## Historical pool
 
