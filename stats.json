@@ -1,14 +1,14 @@
 {
   "total": 146662,
-  "alive": 664,
-  "gold": 385,
+  "alive": 677,
+  "gold": 381,
   "ever_alive": 25727,
   "ever_gold": 1074,
-  "dead_now": 145998,
+  "dead_now": 145985,
   "never_alive": 120935,
   "checked": 146662,
-  "successes": 619863,
-  "failures": 12328975,
+  "successes": 620030,
+  "failures": 12335068,
   "protocols": {
     "http": 59460,
     "https": 24674,
@@ -16,235 +16,235 @@
     "socks5": 27783
   },
   "alive_protocols": {
-    "http": 157,
-    "https": 99,
-    "socks4": 204,
-    "socks5": 204
+    "http": 168,
+    "https": 104,
+    "socks4": 203,
+    "socks5": 202
   },
   "gold_protocols": {
-    "http": 62,
-    "https": 21,
-    "socks4": 151,
-    "socks5": 151
+    "http": 57,
+    "https": 20,
+    "socks4": 152,
+    "socks5": 152
   },
   "queue": 0,
   "in_flight": 0,
   "workers": 3000,
-  "harvests": 5153,
-  "cycles": 5152,
+  "harvests": 5154,
+  "cycles": 5153,
   "cycle_phase": "exporting",
   "new_this_harvest": 0,
-  "queued_this_harvest": 6194,
-  "last_harvest": "2026-08-20T13:47:17Z",
-  "last_export": "2026-08-20T13:48:04Z",
-  "last_git_push": "2026-08-20T13:47:17Z",
+  "queued_this_harvest": 3785,
+  "last_harvest": "2026-08-20T13:48:06Z",
+  "last_export": "2026-08-20T13:48:51Z",
+  "last_git_push": "2026-08-20T13:48:06Z",
   "last_archive": "2026-08-20T13:02:05Z",
-  "last_cycle_end": "2026-08-20T13:47:17Z",
+  "last_cycle_end": "2026-08-20T13:48:06Z",
   "git_status": "pushed",
   "started_at": "2026-08-18T09:47:20.968521411Z",
   "sources": [
     {
       "name": "databay-http",
-      "last_fetch": "2026-08-20T13:47:17.750234453Z",
+      "last_fetch": "2026-08-20T13:48:06.198328981Z",
       "found": 1742,
       "unique": 1742,
-      "duration_ms": 50
+      "duration_ms": 5
     },
     {
       "name": "databay-socks4",
-      "last_fetch": "2026-08-20T13:47:17.726330847Z",
+      "last_fetch": "2026-08-20T13:48:06.200202918Z",
       "found": 469,
       "unique": 469,
-      "duration_ms": 2
-    },
-    {
-      "name": "databay-socks5",
-      "last_fetch": "2026-08-20T13:47:17.726932549Z",
-      "found": 293,
-      "unique": 293,
-      "duration_ms": 2
-    },
-    {
-      "name": "hproxy-http",
-      "last_fetch": "2026-08-20T13:47:17.727164009Z",
-      "found": 1114,
-      "unique": 1114,
       "duration_ms": 3
     },
     {
+      "name": "databay-socks5",
+      "last_fetch": "2026-08-20T13:48:06.200924598Z",
+      "found": 293,
+      "unique": 293,
+      "duration_ms": 4
+    },
+    {
+      "name": "hproxy-http",
+      "last_fetch": "2026-08-20T13:48:06.191449762Z",
+      "found": 1114,
+      "unique": 1114,
+      "duration_ms": 12
+    },
+    {
       "name": "hproxy-https",
-      "last_fetch": "2026-08-20T13:47:17.730214489Z",
+      "last_fetch": "2026-08-20T13:48:06.209375791Z",
       "found": 960,
       "unique": 960,
-      "duration_ms": 2
+      "duration_ms": 3
     },
     {
       "name": "hproxy-socks4",
-      "last_fetch": "2026-08-20T13:47:17.790567839Z",
+      "last_fetch": "2026-08-20T13:48:06.209367615Z",
       "found": 1431,
       "unique": 1431,
-      "duration_ms": 63
+      "duration_ms": 4
     },
     {
       "name": "hproxy-socks5",
-      "last_fetch": "2026-08-20T13:47:17.776337204Z",
+      "last_fetch": "2026-08-20T13:48:06.191956994Z",
       "found": 730,
       "unique": 730,
-      "duration_ms": 76
-    },
-    {
-      "name": "komutan-http",
-      "last_fetch": "2026-08-20T13:47:17.71244136Z",
-      "found": 2918,
-      "unique": 2918,
-      "duration_ms": 12
-    },
-    {
-      "name": "komutan-socks4",
-      "last_fetch": "2026-08-20T13:47:17.739078766Z",
-      "found": 2630,
-      "unique": 2630,
-      "duration_ms": 39
-    },
-    {
-      "name": "komutan-socks5",
-      "last_fetch": "2026-08-20T13:47:17.712865926Z",
-      "found": 2210,
-      "unique": 2210,
       "duration_ms": 13
     },
     {
-      "name": "monosans-http",
-      "last_fetch": "2026-08-20T13:47:17.710359277Z",
-      "found": 193,
-      "unique": 193,
-      "duration_ms": 10
-    },
-    {
-      "name": "monosans-socks4",
-      "last_fetch": "2026-08-20T13:47:17.711572622Z",
-      "found": 98,
-      "unique": 98,
-      "duration_ms": 12
-    },
-    {
-      "name": "monosans-socks5",
-      "last_fetch": "2026-08-20T13:47:17.708003696Z",
-      "found": 83,
-      "unique": 83,
+      "name": "komutan-http",
+      "last_fetch": "2026-08-20T13:48:06.2120988Z",
+      "found": 2918,
+      "unique": 2918,
       "duration_ms": 8
     },
     {
+      "name": "komutan-socks4",
+      "last_fetch": "2026-08-20T13:48:06.208298807Z",
+      "found": 2630,
+      "unique": 2630,
+      "duration_ms": 6
+    },
+    {
+      "name": "komutan-socks5",
+      "last_fetch": "2026-08-20T13:48:06.22727017Z",
+      "found": 2210,
+      "unique": 2210,
+      "duration_ms": 48
+    },
+    {
+      "name": "monosans-http",
+      "last_fetch": "2026-08-20T13:48:06.207720849Z",
+      "found": 193,
+      "unique": 193,
+      "duration_ms": 6
+    },
+    {
+      "name": "monosans-socks4",
+      "last_fetch": "2026-08-20T13:48:06.20480233Z",
+      "found": 98,
+      "unique": 98,
+      "duration_ms": 4
+    },
+    {
+      "name": "monosans-socks5",
+      "last_fetch": "2026-08-20T13:48:06.20315918Z",
+      "found": 83,
+      "unique": 83,
+      "duration_ms": 3
+    },
+    {
       "name": "mzyui-http",
-      "last_fetch": "2026-08-20T13:47:17.803277015Z",
+      "last_fetch": "2026-08-20T13:48:06.238608083Z",
       "found": 58246,
       "unique": 58035,
-      "duration_ms": 80
+      "duration_ms": 59
     },
     {
       "name": "mzyui-socks4",
-      "last_fetch": "2026-08-20T13:47:17.769295727Z",
+      "last_fetch": "2026-08-20T13:48:06.213169914Z",
       "found": 14011,
       "unique": 14011,
-      "duration_ms": 46
+      "duration_ms": 20
     },
     {
       "name": "mzyui-socks5",
-      "last_fetch": "2026-08-20T13:47:17.78114954Z",
+      "last_fetch": "2026-08-20T13:48:06.214809727Z",
       "found": 14074,
       "unique": 14074,
-      "duration_ms": 64
+      "duration_ms": 21
     },
     {
       "name": "proxyscrape-http",
-      "last_fetch": "2026-08-20T13:47:17.721822509Z",
+      "last_fetch": "2026-08-20T13:48:06.201658241Z",
       "found": 1321,
       "unique": 1321,
       "duration_ms": 22
     },
     {
       "name": "proxyscrape-https",
-      "last_fetch": "2026-08-20T13:47:17.719407905Z",
+      "last_fetch": "2026-08-20T13:48:06.198862514Z",
       "found": 381,
       "unique": 381,
-      "duration_ms": 19
+      "duration_ms": 20
     },
     {
       "name": "proxyscrape-socks4",
-      "last_fetch": "2026-08-20T13:47:17.719525447Z",
+      "last_fetch": "2026-08-20T13:48:06.196240476Z",
       "found": 270,
       "unique": 270,
-      "duration_ms": 8
+      "duration_ms": 17
     },
     {
       "name": "proxyscrape-socks5",
-      "last_fetch": "2026-08-20T13:47:17.719624797Z",
+      "last_fetch": "2026-08-20T13:48:06.199180217Z",
       "found": 593,
       "unique": 593,
-      "duration_ms": 7
+      "duration_ms": 20
     },
     {
       "name": "r00tee-http",
-      "last_fetch": "2026-08-20T13:47:17.716423269Z",
+      "last_fetch": "2026-08-20T13:48:06.204135574Z",
       "found": 5019,
       "unique": 5019,
-      "duration_ms": 16
+      "duration_ms": 10
     },
     {
       "name": "r00tee-socks4",
-      "last_fetch": "2026-08-20T13:47:17.721428882Z",
+      "last_fetch": "2026-08-20T13:48:06.202183748Z",
       "found": 2641,
       "unique": 2641,
       "duration_ms": 5
     },
     {
       "name": "r00tee-socks5",
-      "last_fetch": "2026-08-20T13:47:17.712271077Z",
+      "last_fetch": "2026-08-20T13:48:06.191195439Z",
       "found": 2004,
       "unique": 2004,
       "duration_ms": 12
     },
     {
       "name": "speedx-http",
-      "last_fetch": "2026-08-20T13:47:17.719397705Z",
+      "last_fetch": "2026-08-20T13:48:06.193339129Z",
       "found": 2676,
       "unique": 2676,
-      "duration_ms": 4
+      "duration_ms": 14
     },
     {
       "name": "speedx-socks4",
-      "last_fetch": "2026-08-20T13:47:17.714327501Z",
+      "last_fetch": "2026-08-20T13:48:06.190191763Z",
       "found": 2530,
       "unique": 2530,
-      "duration_ms": 6
-    },
-    {
-      "name": "speedx-socks5",
-      "last_fetch": "2026-08-20T13:47:17.720149432Z",
-      "found": 2028,
-      "unique": 2028,
-      "duration_ms": 4
-    },
-    {
-      "name": "thenasty-http",
-      "last_fetch": "2026-08-20T13:47:17.730850817Z",
-      "found": 0,
-      "unique": 0,
       "duration_ms": 11
     },
     {
-      "name": "thenasty-socks4",
-      "last_fetch": "2026-08-20T13:47:17.759220422Z",
+      "name": "speedx-socks5",
+      "last_fetch": "2026-08-20T13:48:06.205049679Z",
+      "found": 2028,
+      "unique": 2028,
+      "duration_ms": 5
+    },
+    {
+      "name": "thenasty-http",
+      "last_fetch": "2026-08-20T13:48:06.190621339Z",
       "found": 0,
       "unique": 0,
-      "duration_ms": 39
+      "duration_ms": 3
+    },
+    {
+      "name": "thenasty-socks4",
+      "last_fetch": "2026-08-20T13:48:06.196557798Z",
+      "found": 0,
+      "unique": 0,
+      "duration_ms": 5
     },
     {
       "name": "thenasty-socks5",
-      "last_fetch": "2026-08-20T13:47:17.761920878Z",
+      "last_fetch": "2026-08-20T13:48:06.187452925Z",
       "found": 0,
       "unique": 0,
-      "duration_ms": 41
+      "duration_ms": 8
     }
   ]
 }
