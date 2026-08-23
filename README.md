@@ -1,18 +1,18 @@
-# SyndProxy private pool
+# SyndProxy validated proxy pool
 
 ## Current pool
 
-- Alive now: 834
-- Gold now: 353
-- HTTP: 252 alive / 79 gold
-- HTTPS: 161 alive / 23 gold
-- SOCKS4: 188 alive / 118 gold
-- SOCKS5: 233 alive / 133 gold
+- Alive now: 1288
+- Gold now: 0
+- HTTP: 446 alive / 0 gold
+- HTTPS: 135 alive / 0 gold
+- SOCKS4: 343 alive / 0 gold
+- SOCKS5: 364 alive / 0 gold
 
 ## Historical pool
 
-- Discovered: 167924
-- Ever alive: 32595
+- Discovered: 169115
+- Ever alive: 32637
 - Ever gold: 1190
 
 `alive/` is the current passing pool. `gold/` is the current repeatedly verified, higher-scoring subset. `historical/` is append-only and does not remove a proxy just because it later goes offline. `archive/` stores periodic snapshots of the current combined alive/gold pools.
