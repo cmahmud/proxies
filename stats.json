@@ -1,14 +1,14 @@
 {
   "total": 169863,
-  "alive": 362,
-  "gold": 189,
+  "alive": 366,
+  "gold": 192,
   "ever_alive": 32716,
   "ever_gold": 1207,
-  "dead_now": 169501,
+  "dead_now": 169497,
   "never_alive": 137147,
-  "checked": 152491,
-  "successes": 5936,
-  "failures": 96629,
+  "checked": 152684,
+  "successes": 5946,
+  "failures": 97023,
   "protocols": {
     "http": 62068,
     "https": 31037,
@@ -16,35 +16,35 @@
     "socks5": 35946
   },
   "alive_protocols": {
-    "http": 112,
+    "http": 114,
     "https": 65,
     "socks4": 70,
-    "socks5": 115
+    "socks5": 117
   },
   "gold_protocols": {
     "http": 40,
-    "https": 5,
+    "https": 8,
     "socks4": 61,
     "socks5": 83
   },
-  "queue": 42856,
+  "queue": 42700,
   "priority_queue": 0,
   "in_flight": 50,
   "workers": 50,
-  "harvests": 8,
-  "cycles": 8,
+  "harvests": 9,
+  "cycles": 9,
   "cycle_phase": "validating",
-  "new_this_harvest": 1,
-  "queued_this_harvest": 27,
-  "sources_fetched_this_harvest": 11,
+  "new_this_harvest": 0,
+  "queued_this_harvest": 1,
+  "sources_fetched_this_harvest": 3,
   "source_feeds": 29,
   "source_errors": 0,
-  "sources_due": 3,
-  "last_harvest": "2026-08-23T02:51:29Z",
-  "last_export": "2026-08-23T02:55:16Z",
-  "last_git_push": "2026-08-23T02:54:48Z",
+  "sources_due": 0,
+  "last_harvest": "2026-08-23T02:55:29Z",
+  "last_export": "2026-08-23T02:55:46Z",
+  "last_git_push": "2026-08-23T02:55:18Z",
   "last_archive": "2026-08-23T01:24:02Z",
-  "last_cycle_end": "2026-08-23T02:51:29Z",
+  "last_cycle_end": "2026-08-23T02:55:29Z",
   "git_status": "pushed",
   "started_at": "2026-08-23T01:23:43.887301572Z",
   "sources": [
@@ -230,30 +230,30 @@
     },
     {
       "name": "r00tee-http",
-      "last_fetch": "2026-08-23T02:40:14.688631951Z",
+      "last_fetch": "2026-08-23T02:55:29.174172852Z",
       "found": 5019,
       "unique": 5019,
-      "duration_ms": 100,
+      "duration_ms": 7,
       "refresh_seconds": 900,
-      "next_fetch": "2026-08-23T02:55:14.688631951Z"
+      "next_fetch": "2026-08-23T03:10:29.174172852Z"
     },
     {
       "name": "r00tee-socks4",
-      "last_fetch": "2026-08-23T02:40:14.707615101Z",
+      "last_fetch": "2026-08-23T02:55:29.185487456Z",
       "found": 2641,
       "unique": 2641,
-      "duration_ms": 9,
+      "duration_ms": 4,
       "refresh_seconds": 900,
-      "next_fetch": "2026-08-23T02:55:14.707615101Z"
+      "next_fetch": "2026-08-23T03:10:29.185487456Z"
     },
     {
       "name": "r00tee-socks5",
-      "last_fetch": "2026-08-23T02:40:14.578027175Z",
+      "last_fetch": "2026-08-23T02:55:29.163944663Z",
       "found": 2004,
       "unique": 2004,
-      "duration_ms": 394,
+      "duration_ms": 19,
       "refresh_seconds": 900,
-      "next_fetch": "2026-08-23T02:55:14.578027175Z"
+      "next_fetch": "2026-08-23T03:10:29.163944663Z"
     },
     {
       "name": "speedx-http",
