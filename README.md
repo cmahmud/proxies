@@ -2,17 +2,17 @@
 
 ## Current pool
 
-- Alive now: 532
+- Alive now: 539
 - Gold now: 385
-- HTTP: 106 alive / 55 gold
-- HTTPS: 56 alive / 11 gold
-- SOCKS4: 184 alive / 158 gold
-- SOCKS5: 186 alive / 161 gold
+- HTTP: 115 alive / 56 gold
+- HTTPS: 55 alive / 12 gold
+- SOCKS4: 182 alive / 158 gold
+- SOCKS5: 187 alive / 159 gold
 
 ## Historical pool
 
 - Discovered: 179378
-- Ever alive: 33479
+- Ever alive: 33480
 - Ever gold: 1238
 
 `alive/` is the current passing pool. `gold/` is the current repeatedly verified, higher-scoring subset. `historical/` is append-only and does not remove a proxy just because it later goes offline. `archive/` stores periodic snapshots of the current combined alive/gold pools.
