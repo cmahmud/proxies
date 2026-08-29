@@ -4,8 +4,8 @@
 
 - Alive now: 542
 - Gold now: 443
-- HTTP: 126 alive / 87 gold
-- HTTPS: 56 alive / 30 gold
+- HTTP: 127 alive / 87 gold
+- HTTPS: 55 alive / 30 gold
 - SOCKS4: 170 alive / 158 gold
 - SOCKS5: 190 alive / 168 gold
 
