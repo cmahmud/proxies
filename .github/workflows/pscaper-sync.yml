@@ -3,7 +3,7 @@ name: Publish pscaper proxy pools
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7,37 * * * *'
+    - cron: '*/5 * * * *'
   push:
     branches: [main]
     paths:
