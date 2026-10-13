@@ -8,11 +8,11 @@ validates listed proxies, and publishes updates here every 30 minutes via GitHub
 
 | Metric | Count |
 | --- | ---: |
-| Alive now | 2,142 |
-| Gold now | 5 |
-| Unique discovered | 264,368 |
-| Ever alive | 51,453 |
-| Ever Gold | 1,588 |
+| Alive now | 3,486 |
+| Gold now | 45 |
+| Unique discovered | 266,719 |
+| Ever alive | 53,879 |
+| Ever Gold | 1,611 |
 
 ## Export directories
 
