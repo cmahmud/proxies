@@ -1,18 +1,28 @@
-# SyndProxy validated proxy pool
+# pscaper — validated public proxy pool
 
-## Current pool
+Automated read-only proxy exports from **[pscaper](https://github.com/cmahmud/pscaper)**.
+The collector runs at **[proxy.syndrid.com](https://proxy.syndrid.com/)**, independently
+validates listed proxies, and publishes updates here every 30 minutes via GitHub Actions.
 
-- Alive now: 432
-- Gold now: 361
-- HTTP: 76 alive / 60 gold
-- HTTPS: 32 alive / 14 gold
-- SOCKS4: 159 alive / 137 gold
-- SOCKS5: 165 alive / 150 gold
+## Latest published counters
 
-## Historical pool
+| Metric | Count |
+| --- | ---: |
+| Alive now | 2,142 |
+| Gold now | 5 |
+| Unique discovered | 264,368 |
+| Ever alive | 51,453 |
+| Ever Gold | 1,588 |
 
-- Discovered: 223440
-- Ever alive: 49559
-- Ever gold: 1587
+## Export directories
 
-`alive/` is the current passing pool. `gold/` is the current repeatedly verified, higher-scoring subset. `historical/` is append-only and does not remove a proxy just because it later goes offline. `archive/` stores periodic snapshots of the current combined alive/gold pools.
+- [alive/](alive/) — currently verified public proxies; per-protocol and combined lists
+- [gold/](gold/) — repeatedly verified, higher-scoring subset
+- [historical/](historical/) — cumulative discovered, ever-alive, and ever-Gold lists
+- [stats.json](stats.json) — full collector snapshot at the last export
+- [Automated publishing](.github/workflows/pscaper-sync.yml) — GitHub Actions publisher
+
+**Public API:** [Read-only alive proxies](https://proxy.syndrid.com/api/v1/proxies?tier=alive&protocol=all&format=json&limit=100).
+
+Lists are snapshots, not guarantees of availability. Public proxies are untrusted.
+Never send passwords, session tokens, sensitive data or payments through them.
