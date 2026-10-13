@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/pscaper-sync.yml'
+      - 'scripts/sync_from_pscaper.py'
 
 permissions:
   contents: write
@@ -32,7 +33,7 @@ jobs:
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -- alive/ gold/ historical/ stats.json
+          git add -- alive/ gold/ historical/ stats.json README.md
           if git diff --cached --quiet; then
             echo "No proxy data changes to publish"
             exit 0
