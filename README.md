@@ -7,8 +7,8 @@ Live dashboard: **[proxy.syndrid.com](https://proxy.syndrid.com/)**.
 
 | Metric | Count |
 | --- | ---: |
-| Alive now | 2,942 |
-| Gold now | 1,200 |
+| Alive now | 2,848 |
+| Gold now | 1,190 |
 | Unique discovered | 1,267,878 |
 | Ever alive | 109,079 |
 | Ever Gold | 4,308 |
