@@ -1,14 +1,14 @@
 {
   "total": 2345967,
-  "alive": 3289,
+  "alive": 3290,
   "gold": 1213,
   "ever_alive": 141930,
   "ever_gold": 6837,
-  "dead_now": 2342678,
+  "dead_now": 2342677,
   "never_alive": 2204037,
   "checked": 2345967,
-  "successes": 3942660,
-  "failures": 14684801,
+  "successes": 3942686,
+  "failures": 14684854,
   "protocols": {
     "http": 624277,
     "https": 586108,
@@ -17,22 +17,22 @@
   },
   "alive_protocols": {
     "http": 899,
-    "https": 1516,
+    "https": 1517,
     "socks4": 369,
     "socks5": 505
   },
-  "avg_latency_ms": 2364,
-  "fresh_alive": 2708,
+  "avg_latency_ms": 2361,
+  "fresh_alive": 2570,
   "gold_protocols": {
     "http": 157,
     "https": 739,
     "socks4": 164,
     "socks5": 153
   },
-  "validation_attempts": 18627360,
-  "queue": 34,
-  "urgent_queue": 0,
-  "discovery_queue": 34,
+  "validation_attempts": 18627520,
+  "queue": 887,
+  "urgent_queue": 647,
+  "discovery_queue": 240,
   "confirming": 0,
   "transient_recoveries": 457777,
   "confirmed_losses": 778038,
@@ -48,7 +48,7 @@
   "source_errors": 5,
   "sources_due": 58,
   "last_harvest": "2026-11-09T01:15:43Z",
-  "last_export": "2026-11-09T01:22:20Z",
+  "last_export": "2026-11-09T01:22:51Z",
   "last_git_push": "0001-01-01T00:00:00Z",
   "last_archive": "2026-11-09T00:11:22Z",
   "last_cycle_end": "0001-01-01T00:00:00Z",
@@ -58,16 +58,16 @@
   "survival_quality": [
     {
       "minutes": 5,
-      "samples": 1056625,
+      "samples": 1056631,
       "mature": true,
-      "survived": 571649,
+      "survived": 571655,
       "rate_pct": 54.1
     },
     {
       "minutes": 15,
-      "samples": 1056625,
+      "samples": 1056631,
       "mature": true,
-      "survived": 571616,
+      "survived": 571622,
       "rate_pct": 54.1
     },
     {
@@ -3911,11 +3911,12 @@
       "new_candidates": 0,
       "novel_seen": 34,
       "novel_confirmed": 19,
+      "novel_alive": 1,
       "novel_survived_15m": 10,
       "verified_yield_pct": 55.88235294117647,
-      "known_alive": 598,
+      "known_alive": 599,
       "fetches": 704,
-      "yield_pct": 2.907994553588796,
+      "yield_pct": 2.9128574207352655,
       "duration_ms": 148,
       "refresh_seconds": 900,
       "next_fetch": "2026-11-09T01:30:44.760004829Z"
