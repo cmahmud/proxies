@@ -1,19 +1,19 @@
 {
-  "total": 2451353,
+  "total": 2451357,
   "alive": 2199,
   "gold": 1028,
   "ever_alive": 151683,
   "ever_gold": 7528,
-  "dead_now": 2449154,
-  "never_alive": 2299670,
+  "dead_now": 2449158,
+  "never_alive": 2299674,
   "checked": 2451353,
-  "successes": 5864750,
-  "failures": 22918698,
+  "successes": 5864770,
+  "failures": 22918799,
   "protocols": {
-    "http": 653170,
+    "http": 653173,
     "https": 617668,
     "socks4": 572592,
-    "socks5": 607923
+    "socks5": 607924
   },
   "alive_protocols": {
     "http": 400,
@@ -22,21 +22,21 @@
     "socks5": 277
   },
   "avg_latency_ms": 1900,
-  "fresh_alive": 2199,
+  "fresh_alive": 2148,
   "gold_protocols": {
     "http": 112,
     "https": 658,
     "socks4": 133,
     "socks5": 125
   },
-  "validation_attempts": 28783448,
-  "queue": 0,
+  "validation_attempts": 28783450,
+  "queue": 4173,
   "urgent_queue": 0,
-  "discovery_queue": 0,
+  "discovery_queue": 4173,
   "confirming": 0,
   "transient_recoveries": 644818,
   "confirmed_losses": 1108673,
-  "in_flight": 0,
+  "in_flight": 120,
   "workers": 120,
   "harvests": 2169,
   "cycles": 0,
@@ -46,7 +46,7 @@
   "sources_fetched_this_harvest": 120,
   "source_feeds": 334,
   "source_errors": 5,
-  "sources_due": 95,
+  "sources_due": 182,
   "last_harvest": "2026-11-17T14:00:43Z",
   "last_export": "2026-11-17T14:15:21Z",
   "last_git_push": "0001-01-01T00:00:00Z",
@@ -91,7 +91,7 @@
       "verified_yield_pct": 25.98870056497175,
       "known_alive": 122,
       "fetches": 1058,
-      "yield_pct": 0.8693793201738759,
+      "yield_pct": 0.8688221051132318,
       "duration_ms": 98,
       "refresh_seconds": 1800,
       "next_fetch": "2026-11-17T13:45:44.644071344Z"
@@ -108,7 +108,7 @@
       "verified_yield_pct": 6.444906444906445,
       "known_alive": 90,
       "fetches": 783,
-      "yield_pct": 2.721499848805564,
+      "yield_pct": 2.7198549410698094,
       "duration_ms": 58,
       "refresh_seconds": 1800,
       "next_fetch": "2026-11-17T13:45:44.60515156Z"
@@ -125,7 +125,7 @@
       "verified_yield_pct": 17.92452830188679,
       "known_alive": 211,
       "fetches": 828,
-      "yield_pct": 0.3425157865688359,
+      "yield_pct": 0.34250466682899117,
       "duration_ms": 17,
       "refresh_seconds": 1800,
       "next_fetch": "2026-11-17T13:45:44.564715328Z"
@@ -254,9 +254,9 @@
       "novel_confirmed": 7,
       "novel_survived_15m": 3,
       "verified_yield_pct": 31.818181818181817,
-      "known_alive": 87,
+      "known_alive": 88,
       "fetches": 474,
-      "yield_pct": 1.1033608116677236,
+      "yield_pct": 1.1132194813409235,
       "duration_ms": 32,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.579533016Z"
@@ -271,9 +271,9 @@
       "novel_confirmed": 6,
       "novel_survived_15m": 3,
       "verified_yield_pct": 35.294117647058826,
-      "known_alive": 932,
+      "known_alive": 933,
       "fetches": 474,
-      "yield_pct": 5.3677359903242525,
+      "yield_pct": 5.370093242776563,
       "duration_ms": 10,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.558715517Z"
@@ -320,7 +320,7 @@
       "verified_yield_pct": 10,
       "known_alive": 88,
       "fetches": 474,
-      "yield_pct": 0.2761044176706827,
+      "yield_pct": 0.2759399203537048,
       "duration_ms": 10,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.572375502Z"
@@ -337,7 +337,7 @@
       "verified_yield_pct": 28.571428571428573,
       "known_alive": 96,
       "fetches": 474,
-      "yield_pct": 1.0886822408709458,
+      "yield_pct": 1.08843537414966,
       "duration_ms": 10,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.572824704Z"
@@ -354,7 +354,7 @@
       "verified_yield_pct": 54.166666666666664,
       "known_alive": 121,
       "fetches": 474,
-      "yield_pct": 1.2534963223868227,
+      "yield_pct": 1.2529771150460807,
       "duration_ms": 64,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.629843094Z"
@@ -372,7 +372,7 @@
       "verified_yield_pct": 73.07692307692308,
       "known_alive": 114,
       "fetches": 474,
-      "yield_pct": 1.1817145226495283,
+      "yield_pct": 1.1814695823401389,
       "duration_ms": 58,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.630854979Z"
@@ -406,7 +406,7 @@
       "verified_yield_pct": 83.33333333333333,
       "known_alive": 254,
       "fetches": 474,
-      "yield_pct": 0.8846475341320702,
+      "yield_pct": 0.8840317416121398,
       "duration_ms": 53,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.632129305Z"
@@ -432,9 +432,9 @@
       "unique": 100,
       "new_candidates": 0,
       "novel_seen": 2,
-      "known_alive": 414,
+      "known_alive": 415,
       "fetches": 474,
-      "yield_pct": 14.743589743589743,
+      "yield_pct": 14.763429384560654,
       "duration_ms": 44,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.624543349Z"
@@ -447,7 +447,7 @@
       "new_candidates": 0,
       "known_alive": 236,
       "fetches": 474,
-      "yield_pct": 1.7836898193636157,
+      "yield_pct": 1.7834202372855739,
       "duration_ms": 31,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.65630638Z"
@@ -512,7 +512,7 @@
       "verified_yield_pct": 60,
       "known_alive": 649,
       "fetches": 473,
-      "yield_pct": 6.273562107298211,
+      "yield_pct": 6.2729557316837425,
       "duration_ms": 35,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.667445513Z"
@@ -568,7 +568,7 @@
       "verified_yield_pct": 19.047619047619047,
       "known_alive": 147,
       "fetches": 473,
-      "yield_pct": 1.9026663215117785,
+      "yield_pct": 1.90192780437314,
       "duration_ms": 2,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.670397447Z"
@@ -585,7 +585,7 @@
       "verified_yield_pct": 44.44444444444444,
       "known_alive": 463,
       "fetches": 473,
-      "yield_pct": 1.5653526269524647,
+      "yield_pct": 1.5642948847895128,
       "duration_ms": 6,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.677302319Z"
@@ -669,7 +669,7 @@
       "verified_yield_pct": 0.06626905235255136,
       "known_alive": 27,
       "fetches": 265,
-      "yield_pct": 0.17116774438950172,
+      "yield_pct": 0.1709509940483728,
       "duration_ms": 1964,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:45.658934998Z"
@@ -774,7 +774,7 @@
       "verified_yield_pct": 44.44444444444444,
       "known_alive": 826,
       "fetches": 473,
-      "yield_pct": 3.23832673383777,
+      "yield_pct": 3.235789556156227,
       "duration_ms": 12,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.811032234Z"
@@ -789,9 +789,9 @@
       "novel_confirmed": 3,
       "novel_survived_15m": 2,
       "verified_yield_pct": 50,
-      "known_alive": 431,
+      "known_alive": 434,
       "fetches": 473,
-      "yield_pct": 9.707207207207206,
+      "yield_pct": 9.763779527559056,
       "duration_ms": 35,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.838477444Z"
@@ -805,9 +805,9 @@
       "novel_seen": 4,
       "novel_confirmed": 1,
       "verified_yield_pct": 25,
-      "known_alive": 248,
+      "known_alive": 250,
       "fetches": 473,
-      "yield_pct": 1.1239010242001268,
+      "yield_pct": 1.1322976584084423,
       "duration_ms": 34,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.843334507Z"
@@ -855,7 +855,7 @@
       "verified_yield_pct": 1.345291479820628,
       "known_alive": 178,
       "fetches": 473,
-      "yield_pct": 0.49515967508623565,
+      "yield_pct": 0.49469179033961425,
       "duration_ms": 23,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.834538065Z"
@@ -906,7 +906,7 @@
       "verified_yield_pct": 0.13472549680026946,
       "known_alive": 49,
       "fetches": 341,
-      "yield_pct": 0.1265071127978726,
+      "yield_pct": 0.12625611955681526,
       "duration_ms": 374,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:44.212812299Z"
@@ -922,7 +922,7 @@
       "verified_yield_pct": 25,
       "known_alive": 140,
       "fetches": 473,
-      "yield_pct": 1.1410872931779281,
+      "yield_pct": 1.1409942950285248,
       "duration_ms": 8,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.851443625Z"
@@ -970,7 +970,7 @@
       "verified_yield_pct": 17.647058823529413,
       "known_alive": 173,
       "fetches": 473,
-      "yield_pct": 1.1427439064667415,
+      "yield_pct": 1.1417634635691658,
       "duration_ms": 79,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.930702561Z"
@@ -987,7 +987,7 @@
       "verified_yield_pct": 13.157894736842104,
       "known_alive": 428,
       "fetches": 473,
-      "yield_pct": 4.17805544709098,
+      "yield_pct": 4.172353285240788,
       "duration_ms": 63,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.921311757Z"
@@ -1004,7 +1004,7 @@
       "verified_yield_pct": 20.833333333333332,
       "known_alive": 255,
       "fetches": 473,
-      "yield_pct": 0.9572431397574984,
+      "yield_pct": 0.9564532463148419,
       "duration_ms": 48,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.92633638Z"
@@ -1021,7 +1021,7 @@
       "verified_yield_pct": 30.952380952380953,
       "known_alive": 417,
       "fetches": 473,
-      "yield_pct": 1.733095050081044,
+      "yield_pct": 1.7322311303119677,
       "duration_ms": 38,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.942969779Z"
@@ -1038,7 +1038,7 @@
       "verified_yield_pct": 26.08695652173913,
       "known_alive": 254,
       "fetches": 473,
-      "yield_pct": 9.746738296239448,
+      "yield_pct": 9.739263803680982,
       "duration_ms": 40,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.96214019Z"
@@ -1129,9 +1129,9 @@
       "novel_confirmed": 3,
       "novel_survived_15m": 3,
       "verified_yield_pct": 23.076923076923077,
-      "known_alive": 131,
+      "known_alive": 132,
       "fetches": 473,
-      "yield_pct": 1.3542851235397497,
+      "yield_pct": 1.3642000826787928,
       "duration_ms": 7,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.938271797Z"
@@ -1164,7 +1164,7 @@
       "verified_yield_pct": 50,
       "known_alive": 101,
       "fetches": 473,
-      "yield_pct": 0.4432935393258427,
+      "yield_pct": 0.44319627890649,
       "duration_ms": 36,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:43.97463949Z"
@@ -1198,7 +1198,7 @@
       "verified_yield_pct": 0.15748031496062992,
       "known_alive": 65,
       "fetches": 432,
-      "yield_pct": 0.1734304543877905,
+      "yield_pct": 0.17320400767426988,
       "duration_ms": 349,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:44.31208065Z"
@@ -1215,7 +1215,7 @@
       "verified_yield_pct": 0.06923609508423725,
       "known_alive": 22,
       "fetches": 314,
-      "yield_pct": 0.06062109062853049,
+      "yield_pct": 0.060474449545067206,
       "duration_ms": 1272,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:45.246925044Z"
@@ -1263,7 +1263,7 @@
       "verified_yield_pct": 0.06984459577440195,
       "known_alive": 31,
       "fetches": 377,
-      "yield_pct": 0.07145820847356046,
+      "yield_pct": 0.07132175313470608,
       "duration_ms": 1633,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:45.609684644Z"
@@ -1366,7 +1366,7 @@
       "verified_yield_pct": 0.2748930971288943,
       "known_alive": 17,
       "fetches": 405,
-      "yield_pct": 0.061917249417249416,
+      "yield_pct": 0.06186542450598639,
       "duration_ms": 181,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:44.309539118Z"
@@ -1383,7 +1383,7 @@
       "verified_yield_pct": 2.7027027027027026,
       "known_alive": 105,
       "fetches": 472,
-      "yield_pct": 1.095575959933222,
+      "yield_pct": 1.0952331281944299,
       "duration_ms": 66,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:44.279136054Z"
@@ -1410,7 +1410,7 @@
       "new_candidates": 0,
       "known_alive": 216,
       "fetches": 472,
-      "yield_pct": 1.9157427937915743,
+      "yield_pct": 1.9154030327214684,
       "duration_ms": 35,
       "refresh_seconds": 3600,
       "next_fetch": "2026-11-17T14:15:44.345273407Z"
